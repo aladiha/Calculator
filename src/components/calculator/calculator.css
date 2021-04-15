@@ -11,6 +11,10 @@
     height: 110px;
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
 }
 
 .clear {

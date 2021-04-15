@@ -8,7 +8,7 @@ const Cube = props => {
     if (props.type === "right")
         backgroundColor = "orange";
 
-    return <div className="cube" style={{backgroundColor: backgroundColor}}> 
+    return <div onClick={() => props.add(props.name)} className="cube" style={{backgroundColor: backgroundColor}}> 
         {props.name}
     </div>
 }
