@@ -1,0 +1,17 @@
+.cube {
+    border: black solid 1px;
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.cube:hover,
+.cube:active {
+    cursor: pointer;
+    background-color:lightyellow !important;
+}
