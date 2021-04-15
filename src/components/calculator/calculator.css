@@ -1,3 +1,13 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
 .calculator {
     display: flex;
     width: 408px;
@@ -46,3 +56,4 @@
         height: 80px;
     }
 }
+

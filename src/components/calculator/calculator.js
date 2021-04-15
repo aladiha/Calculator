@@ -78,13 +78,16 @@ const Calculator = props => {
         setStatus(true);
     }
 
-    return <div className="calculator">
-        <div className="previewer">{exp}</div>
-        <Cube add={addToExpression} name="7"/><Cube add={addToExpression} name="8"/><Cube add={addToExpression} name="9"/><Cube add={addToExpression} name="/" type="right"/>
-        <Cube add={addToExpression} name="4"/><Cube add={addToExpression} name="5"/><Cube add={addToExpression} name="6"/><Cube add={addToExpression} name="x" type="right"/>
-        <Cube add={addToExpression} name="1"/><Cube add={addToExpression} name="2"/><Cube add={addToExpression} name="3"/><Cube add={addToExpression} name="+" type="right"/>
-        <Cube add={addToExpression} name="."/><Cube add={addToExpression} name="0"/><Cube add={calculateExp} name="="/><Cube add={addToExpression} name="-" type="right"/>
-        <div className="clear" onClick={clearExp}>Clear</div>
+    return <div className="body">
+    <h1>Calculator</h1>
+        <div className="calculator">
+            <div className="previewer">{exp}</div>
+            <Cube add={addToExpression} name="7"/><Cube add={addToExpression} name="8"/><Cube add={addToExpression} name="9"/><Cube add={addToExpression} name="/" type="right"/>
+            <Cube add={addToExpression} name="4"/><Cube add={addToExpression} name="5"/><Cube add={addToExpression} name="6"/><Cube add={addToExpression} name="x" type="right"/>
+            <Cube add={addToExpression} name="1"/><Cube add={addToExpression} name="2"/><Cube add={addToExpression} name="3"/><Cube add={addToExpression} name="+" type="right"/>
+            <Cube add={addToExpression} name="."/><Cube add={addToExpression} name="0"/><Cube add={calculateExp} name="="/><Cube add={addToExpression} name="-" type="right"/>
+            <div className="clear" onClick={clearExp}>Clear</div>
+        </div>
     </div>
 }
 

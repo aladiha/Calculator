@@ -4,7 +4,7 @@ import './cube.css';
 
 
 const Cube = props => {
-    let backgroundColor = "gray";
+    let backgroundColor = "lightgray";
     if (props.type === "right")
         backgroundColor = "orange";
 
