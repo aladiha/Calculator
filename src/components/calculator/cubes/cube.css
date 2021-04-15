@@ -10,11 +10,14 @@
     font-size: 1.2em;
 }
 
-.cube:hover,
-.cube:active {
-    cursor: pointer;
-    background-color:lightyellow !important;
+@media (hover: hover) and (pointer: fine) {
+    .cube:hover{
+        cursor: pointer;
+        background-color:lightyellow !important;
+        
+    }
 }
+
 
 @media(max-width: 415px){
     .cube {
