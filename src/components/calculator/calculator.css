@@ -34,3 +34,15 @@
     cursor: pointer;
     color: black;
 }
+
+@media(max-width: 415px){
+    .calculator {
+        width: 308px;
+    }
+    .clear {
+        height: 80px;
+    }
+    .previewer {
+        height: 80px;
+    }
+}
